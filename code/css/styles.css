@@ -317,6 +317,9 @@ input[type=submit] {
     width: 100%;
     float: left;
     font-size: 14px;
-    color: #18191a;
+    color: #ffffff;
     text-align: left;   
+}
+.middle h2 {
+    color: cornsilk;
 }
