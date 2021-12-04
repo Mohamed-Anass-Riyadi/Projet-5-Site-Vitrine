@@ -285,14 +285,6 @@ input[type=submit] {
     position: relative;
     top: -30px;
 }
-.about_lorem {
-    width: 100%;
-    float: left;
-    font-size: 14px;
-    color: #18191a;
-    text-align: left;
-    padding-right: 30px;
-}
 
 .read_more {
     width: 18%;
@@ -311,4 +303,19 @@ input[type=submit] {
     bottom: 1px;
     padding-top: 20px;
 }
-body (background-image: url(../images/contact-bg.png);)
+.middle {
+    background-image: url(../img/camp.jpg);
+    width: 100%;
+    float: left;
+    height: auto;
+    padding-bottom: 70px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.lorem {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #18191a;
+    text-align: left;   
+}
