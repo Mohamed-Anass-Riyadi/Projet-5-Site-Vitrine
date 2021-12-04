@@ -308,5 +308,6 @@ input[type=submit] {
     width: 100%;
     float: left;
     position: relative;
-    top: -1px;
+    bottom: 1px;
+    padding-top: 20px;
 }
