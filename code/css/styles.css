@@ -279,35 +279,11 @@ input[type=submit] {
   
   padding: 20px;
 }
-.about_section{
-	width: 100%;
-	float: left;
-}
-.about_text {
-    width: 60%;
-    float: left;
-    font-size: 20pt;
-    color: #1c6aec;
-    text-align: left;
-    padding-left: 30px;
-    position: absolute;
-    padding-top: 50px;
-}
 .about_img {
     width: 100%;
     float: left;
     position: relative;
     top: -30px;
-}
-.about_middle {
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    position: ABSOLUTE;
-    background-image: url(../images/img-2.png);
-    height: auto;
-    margin-top: 340px;
-    margin-left: 60px;
 }
 .about_lorem {
     width: 100%;
@@ -332,5 +308,5 @@ input[type=submit] {
     width: 100%;
     float: left;
     position: relative;
-    top: -120px;
+    top: -1px;
 }
