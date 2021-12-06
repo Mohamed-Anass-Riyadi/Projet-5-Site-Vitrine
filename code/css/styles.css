@@ -51,25 +51,27 @@ li {
     display: inline;
 }
 
-.hero {
+.part1 {
     background-image: url("../img/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
-.hero h1 {
+.part1 h1 {
     font-size: 2.3rem;
+    margin: 30px;
 }
 
-.hero p {
+.part1 p {
     font-size: 1rem;
     font-weight: 300;
     margin: 1rem 0;
+    margin: 30px;
 }
-.hero button {
+.part1 button {
     color: white;
     background-color: #000;
     border: none;
@@ -78,9 +80,10 @@ li {
     font-weight: 700;
     text-transform: uppercase;
     margin: 1.5rem 0 10rem 0;
+    margin: 30px;
 }
 
-.hero-content {
+.part1-content {
     padding: 0 5rem;
     margin-top: 100px;
 }
@@ -92,17 +95,17 @@ li {
 }
 
 @media only screen and (min-width: 48rem) {
-    .hero button {
+    .part1 button {
         padding: 1rem 2.2rem;
         font-size: 1.3rem;
     }
 
  
-    .hero h1 {
+    .part1 h1 {
         font-size: 4rem;
     }
     
-    .hero p {
+    .part1 p {
         font-size: 1.3rem;
         font-weight: 300;
         margin: 1rem 0;
@@ -112,11 +115,11 @@ li {
     }
 }
 
-/* end hero section styles */
+/* end part1 section styles */
 
 
 
-/* new product section styles */
+/* new product styles */
 main {
     width: 100%;
     height: auto;
@@ -310,22 +313,41 @@ input[type=submit] {
     padding-top: 20px;
 }
 .middle {
-    background-image: url(../img/camp.jpg);
+    background-image: url(../img/background2.png);
     width: 100%;
     float: left;
     height: auto;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 15px;
 }
 .lorem {
     width: 100%;
-    float: left;
+font-family: unset;    float: left;
     font-size: 14px;
     color: #ffffff;
     margin: 10px;
+    text-align: center;
 }
 .middle h2 {
-    color: cornsilk;
+    color: rgb(255, 255, 255);
+}
+.features{
+
+    width: 100%;
+    font-family: var(--universal-font);
+    
+}
+.fram {
+
+    margin-top: 200px;
+    width: 90%;
+    text-align: center;
+}
+
+.fram p{
+
+    margin-top: 20px;
+
 }
