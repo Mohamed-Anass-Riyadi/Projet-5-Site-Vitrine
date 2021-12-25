@@ -128,7 +128,7 @@ main {
     border-radius: 15px;
 }
 img {
-    max-width: 75%;
+    max-width: 50%;
 }
 
 article {
@@ -140,6 +140,7 @@ article {
     color: #a6a6a6;
     font-size: 1rem;
     padding: 16px 0;
+    margin-bottom: 100px;
 }
 
 .product-name {
@@ -333,7 +334,7 @@ font-family: unset;    float: left;
 .middle h2 {
     color: rgb(255, 255, 255);
 }
-.features{
+/* .features{
  
     width: 100%;
     font-family: var(--universal-font);
@@ -344,10 +345,17 @@ font-family: unset;    float: left;
     margin-top: 200px;
     width: 90%;
     text-align: center;
+    padding: ;
 }
 
 .fram p{
 
     margin-top: 20px;
 
+} */
+.fram {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-left: 150px;
 }
