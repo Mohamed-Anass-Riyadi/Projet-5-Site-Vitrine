@@ -325,9 +325,10 @@ input[type=submit] {
 }
 .lorem {
     width: 100%;
-font-family: unset;    float: left;
-    font-size: 14px;
-    color: #ffffff;
+    font-family: unset;    
+    float: left;
+    font-size: 20px;
+    color: #000000;
     margin: 10px;
     text-align: center;
 }
