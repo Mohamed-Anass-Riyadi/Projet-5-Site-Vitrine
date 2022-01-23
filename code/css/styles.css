@@ -354,8 +354,9 @@ font-family: unset;    float: left;
 
 } */
 .fram {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    margin-left: 150px;
+    justify-content: center;
 }
